@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+body{
+    background-color: rgba(78, 78, 78, 0.551);
+}
+
+.skills{
+    width: 600px;
+    margin: 60px auto;
+    color:white;
+  
+}
+.skills li{
+    margin: 20px 0;
+}
+/* skill bar  */
+.skills .bar{
+    display: block;
+   
+    background:gray;
+    height: 6px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    
+
+}
+.skills .bar span{
+    float:left;
+    height: 6px;
+    background:green;
+    position: relative;
+
+}
+/* html after & before */
+.skills .bar .html::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .html::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+/* css after & before */
+.skills .bar .css::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .css::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+/* bootstrap after & before */
+.skills .bar .bootstrap::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .bootstrap::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+/* javascript after & before */
+.skills .bar .javascript::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .javascript::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+/* jquery after & before */
+.skills .bar .jquery::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .jquery::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+/* php after & before */
+.skills .bar .php::before{
+    content: attr(per);
+    position: absolute;
+    width:35px;
+    height:25px;
+    background: green;
+    left:100%;
+    top:calc(100% - 40px);
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    line-height: 25px;
+}
+.skills .bar .php::after{
+    content: "";
+    position: absolute;
+    width:15px;
+    height:15px;
+    background: green;
+    left:calc(100% + 10px);
+    top:calc(100% - 25px);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
+
+.html{
+    width:0%;
+    transition:2s;
+  
+
+} 
+
+.css{
+    width:0%;
+    transition: 2s;
+
+}
+
+.bootstrap{
+    width:0%;
+  transition: 2s;
+
+}
+
+.javascript{
+    width:0%;
+ transition: 2s;
+
+}
+
+.jquery{
+    width:0%;
+    transition: 2s;
+
+}
+.php{
+    width:0%;
+  transition: 2s;
+
+
+}
